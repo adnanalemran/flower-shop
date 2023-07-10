@@ -159,8 +159,9 @@ body {
 
 .price-section-title {
     text-align: center;
-    font-size: 32px;
-    font-weight: bold;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
     margin-bottom: 40px;
     margin-top: 50px;
 }
@@ -244,7 +245,7 @@ body {
     margin-top: 50px;
 }
 
-.instagram-title {
+.featured-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -293,6 +294,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .deals .featured-title {
