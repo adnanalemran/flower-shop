@@ -113,3 +113,110 @@ body {
     line-height: 35px;
     text-decoration: underline;
 }
+.discount-aria-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E554730D;
+    color: #fff;
+    padding:100px 50px;
+    width: 100%;
+}
+
+.discount-aria-banner-content {
+    text-align: center;
+    width: 60%;
+}
+
+.discount-aria-banner-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-aria-banner-title span {
+    color: #E55473;
+}
+
+.discount-aria-banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: inline-b;
+}
+
+.discount-aria-image {
+    width: 40%;
+}
+.price-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.price-section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+
+.price-item {
+    width: 300px;
+    height: 400px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.price-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.price-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.price-amount {
+    color: #E55473;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.price-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.price-features li {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #C64361;
+}
