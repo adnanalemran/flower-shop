@@ -110,6 +110,35 @@ body {
     text-decoration: underline;
 }
 
+/* CSS for service section */
+.parent-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.service {
+    width: 80%;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.service-item {
+    padding: 60px 0px;
+}
+
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
 
 /* CSS for discount aria banner section */
 .discount-aria-banner {
